@@ -93,11 +93,37 @@ Seuraavaksi määritetään FileServer koneella sijainti, jossa jako tapahtuu se
 
 ![image](https://github.com/user-attachments/assets/b2be8c69-59fc-46b0-9658-0892d2e6c75e)
 
-Seuraavaksi tehdään homma etänä DC01 koneen kautta
+Seuraavaksi tehdään homma etänä DC01 koneen kautta.
 
-![image](https://github.com/user-attachments/assets/2433a38c-f74f-4e2f-9f83-0456492ab523)
+![image](https://github.com/user-attachments/assets/f921ac5c-511e-417e-b3e7-a5f69908ea75)
 
 Ja vielä lopuksi näkymä kummaltakin palvelimelta käsin
 
-![image](https://github.com/user-attachments/assets/03ed7aad-e0ab-4eb0-ba37-29e5230ed120)
+![image](https://github.com/user-attachments/assets/92080948-1603-48bd-b25e-bbd48c50c040)
+
+## Resurssit ja AD
+
+Seuraavaksi oli vuorossa resurssien luonti AD:ssa. Tämä on mahdollista toteuttaa komentorivillä tai GUI:n kautta, ja itse tein GUI:n kautta toimet. Alkuun loin domainin alle `Accounts` ja `Resources` Organization Unitit (OU:t) ja niiden alle halutut OU:t (näkyy avattuina kuvassa). Tämän jälkeen loin käyttäjäryhmät `Accounts` OU:n alle. 
+
+![image](https://github.com/user-attachments/assets/0903a516-7950-4abf-bcfb-473abe7b291c)
+
+Tämän jälkeen oli vuorossa yksittäisten käyttäjien luonti kunkin yksikön alle.
+
+![image](https://github.com/user-attachments/assets/7e36a14d-274c-40a6-bf51-845da4a14adc)
+
+Lopuksi vielä käytetään LDAP kyselyä sekä käyttäjien että resurssien selvittämiseksi Domainin sisällä
+
+![image](https://github.com/user-attachments/assets/ea15e856-7962-4a5c-9ba7-3ec3d50ecd7f)
+
+![image](https://github.com/user-attachments/assets/5da1ecf2-5eca-409e-8b03-5127d88bf74d)
+
+## Ryhmäkäytännöt
+
+Seuraavaksi hyödynsin AD:n hallintatyökaluja määrittämällä aikaisemmin luodun `Person` kansion pääsynhallinan. Lisäsin `Domain Admins` ryhmän, jolla on kaikki oikeudet, sekä `Managment`ryhmän, jolla on vain "Read and Execute" oikeudet.
+
+![image](https://github.com/user-attachments/assets/4a41bee9-8ae0-4aa3-a0dd-b66960f95178) ![image](https://github.com/user-attachments/assets/752c4fe6-dc06-43ae-94a1-f9b1cadc1f4d)
+
+
+![image](https://github.com/user-attachments/assets/ce8aa1ce-89ad-4edc-b94d-dee00df42758) ![image](https://github.com/user-attachments/assets/6c7fa1ee-4320-49e3-af02-a8aedff010ed)
+
 
