@@ -61,3 +61,43 @@ Asennuksen jälkeen virtuaalikone käynnistyi uudelleen ja määritti asetuksia 
 
 ![image](https://github.com/user-attachments/assets/ddfcf3e5-ba96-4786-a1b7-6e03239eba79)
 
+Kun vihdoin pääsin takaisin ja Server Manager oli ladannut kaikki muutokset, voidaan todeta, että AD DS sekä DNS ovat asetettu
+
+![image](https://github.com/user-attachments/assets/43ab49fb-3fac-4f36-a644-d9f65b36acad)
+
+## File Server
+
+### Virtuaalikoneen luonti ja perusasetukset
+
+Tämän kohdalla toimitaan samoin kuin DC:n kohdalla, josta syystä en käy kaikkia kohtia niin tarkasti läpi. Alla tärkeimmät asetukset
+
+![image](https://github.com/user-attachments/assets/df2fd92a-7ff2-4f23-8780-15d4b6d3f809)
+
+![image](https://github.com/user-attachments/assets/94b03db1-0415-459a-a5a3-6ad73c881177)
+
+Huomion arvoista tässä on "Domain"-kohta, josta selviää, että FileServer kone on liitetty `ennevaara.lan`-domainiin ja aikaisemmin määritelty DC01 hallitsee nyt myös tätä palvelinta.
+
+Jotta FileServer konetta voidaan hallita myös etänä, tulee se lisätä DC01 koneelle
+
+![image](https://github.com/user-attachments/assets/77b51955-a3ea-4821-acb4-ba8515a62fb9)
+
+![image](https://github.com/user-attachments/assets/e43a0912-a5b4-48e7-8635-6cfdf9440b5f)
+
+### File Server määritys
+
+Nyt kun perusasetukset ovat kunnossa, voidaan määrittää File Serveri DC01 koneen kautta
+
+![image](https://github.com/user-attachments/assets/65955e97-3101-4ea2-958a-a1f80e156440)
+
+Seuraavaksi määritetään FileServer koneella sijainti, jossa jako tapahtuu sekä miten se näkyy verkossa oleville koneille
+
+![image](https://github.com/user-attachments/assets/b2be8c69-59fc-46b0-9658-0892d2e6c75e)
+
+Seuraavaksi tehdään homma etänä DC01 koneen kautta
+
+![image](https://github.com/user-attachments/assets/2433a38c-f74f-4e2f-9f83-0456492ab523)
+
+Ja vielä lopuksi näkymä kummaltakin palvelimelta käsin
+
+![image](https://github.com/user-attachments/assets/03ed7aad-e0ab-4eb0-ba37-29e5230ed120)
+
