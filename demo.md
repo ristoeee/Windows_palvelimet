@@ -151,6 +151,8 @@ Jos käyttäjä Prod Uction tai Prodnon Uction kirjautuu pöytäkoneelle, joka k
 organisaatioyksikköön Desktops, mitä käytäntöjä hänelle sovelletaan?
 ```
 
+### Workstation 
+
 Tehtävää varten loin virtuaaliympäristöön uuden virtuaalikoneen, josta tein työaseman
 
 ![image](https://github.com/user-attachments/assets/71727e42-dc18-4799-9f27-25f6e65e1b3f)
