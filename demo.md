@@ -133,3 +133,6 @@ Seuraavana oli vuorossa `Group Policy`-käytäntöjen luonti, joissa noudatin oh
 | :--- | :---: | :---: | :---: | :---: | :---: | 
 | IE selaimen ilmoitukset pois päältä | | | | ✔️ | |
 |Salasanavaatimukset | ✔️ | | | | ✔️|
+| Turn on Script execution | | ✔️ | | | |
+| Do not require CTRL+ALT+DEL | | | | | ✔️ |
+| Do not display network UI | | | | ✔️ | |
