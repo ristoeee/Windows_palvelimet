@@ -132,7 +132,12 @@ Seuraavana oli vuorossa `Group Policy`-käytäntöjen luonti, joissa noudatin oh
 | Group Policy | AccountsGP | ProductionGP | ResourcesGP | DesktopsGP | LogonPolicyGP|
 | :--- | :---: | :---: | :---: | :---: | :---: | 
 | IE selaimen ilmoitukset pois päältä | | | | ✔️ | |
-|Salasanavaatimukset | ✔️ | | | | ✔️|
+|Salasana vaatimukset | ✔️ | | | | ✔️|
 | Turn on Script execution | | ✔️ | | | |
 | Do not require CTRL+ALT+DEL | | | | | ✔️ |
 | Do not display network UI | | | | ✔️ | |
+| Always wait for the network at computer startup and logon | | | | | ✔️ |
+| Interactive login: Don't display last signed-in | | | | | ✔️ |
+| Enforce user logon restrictions | ✔️ | | | | |
+| Maximum lifetime for user ticket renewal | ✔️ | | | | | 
+| Windows Firewall enabled | | | | ✔️ | |
