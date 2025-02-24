@@ -147,7 +147,8 @@ Seuraavana oli vuorossa `Group Policy`-käytäntöjen luonti, joissa noudatin oh
 Nyt oli vuorossa tehtävä, jossa haetaan vastuasta seuraanaa kysymykseen: 
 
 ```
-Jos käyttäjä Prod Uction tai Prodnon Uction kirjautuu pöytäkoneelle, joka kuuluu organisaatioyksikköön Desktops, mitä käytäntöjä hänelle sovelletaan?
+Jos käyttäjä Prod Uction tai Prodnon Uction kirjautuu pöytäkoneelle, joka kuuluu
+organisaatioyksikköön Desktops, mitä käytäntöjä hänelle sovelletaan?
 ```
 
 Tehtävää varten loin virtuaaliympäristöön uuden virtuaalikoneen, josta tein työaseman
