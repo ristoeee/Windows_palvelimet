@@ -131,4 +131,4 @@ Seuraavana oli vuorossa `Group Policy`-käytäntöjen luonti, joissa noudatin oh
 
 | Group Policy | AccountsGP | ProductionGP | ResourcesGP | DesktopsGP | LogonPolicyGP|
 | :--- | :--- | :--- | :--- | :--- | :--- | 
-| IE selaimen ilmoitukset pois päältä | | | | :✔️: | |
+| IE selaimen ilmoitukset pois päältä | | | | :v: | |
