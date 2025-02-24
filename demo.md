@@ -160,3 +160,19 @@ Asennuksen jälkeen laitoin sen verkkoasetukset kuntoon, sekä liitin sen domain
 ![image](https://github.com/user-attachments/assets/6c2f30b3-65dd-4975-a167-abfe8534fe1d)
 
 
+
+## FTP ja HTTP
+
+Seuraavaksi asensin DC:n kautta FileServerille WEB Serverin ja lisäsin myös FTP serverin sekä IIS Managment consolin asennukseen
+
+![image](https://github.com/user-attachments/assets/e32ccc4c-eeb4-4468-9a9d-3e61568857e9)
+
+Muokkasin oletus sivun otsikon muotoon `IIS Testisivu" sekä lisäsin myös portin 8080 HTTP käyttöön
+
+Tämän jälkeen yritin määrittää http uudelleenohjauksen tuohon porttiin 8080, mutta olin epähuomiossa jättänyt HTTP Redirect ominaisuuden asentamatta, joten sen asennus vielä
+
+![image](https://github.com/user-attachments/assets/acf1312e-a2c9-491d-89aa-e471111ac33e)
+
+Jonka jälkeen toteutin uudelleen ohjauksen porttiin 8080 ja muutin vielä sivun otsikon muotoon "IIS Testisivu portti 8080". Näin ollen selaimessa kirjoitettaessa `http://localhost` ohjautuu se automaattisesti osoitteeseen `http://localhost:8080`
+
+![image](https://github.com/user-attachments/assets/0809435e-fb68-4cde-8f0d-6363ff99f82d)
