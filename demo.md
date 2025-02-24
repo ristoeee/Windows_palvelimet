@@ -156,3 +156,7 @@ Tehtävää varten loin virtuaaliympäristöön uuden virtuaalikoneen, josta tei
 ![image](https://github.com/user-attachments/assets/71727e42-dc18-4799-9f27-25f6e65e1b3f)
 
 Asennuksen jälkeen laitoin sen verkkoasetukset kuntoon, sekä liitin sen domainiin.
+
+![image](https://github.com/user-attachments/assets/6c2f30b3-65dd-4975-a167-abfe8534fe1d)
+
+
