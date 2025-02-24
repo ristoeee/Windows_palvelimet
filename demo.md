@@ -127,4 +127,8 @@ Seuraavaksi hyödynsin AD:n hallintatyökaluja määrittämällä aikaisemmin lu
 ![image](https://github.com/user-attachments/assets/ce8aa1ce-89ad-4edc-b94d-dee00df42758) ![image](https://github.com/user-attachments/assets/6c7fa1ee-4320-49e3-af02-a8aedff010ed)
 
 
-Seuraavana oli vuorossa `Group Policy`-käytäntöjen luonti 
+Seuraavana oli vuorossa `Group Policy`-käytäntöjen luonti, joissa noudatin ohjeistuksen mallin lisäksi itse hyväksi näkemiäni käytöntöjä seuraavan taulukon mukaisesti:
+
+| Group Policy | AccountsGP | ProductionGP | ResourcesGP | DesktopsGP | LogonPolicyGP|
+| :--- | :--- | :--- | :--- | :--- | :--- | 
+| IE selaimen ilmoitukse pois päältä | | | | :x: | |
