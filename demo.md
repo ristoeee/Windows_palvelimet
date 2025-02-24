@@ -159,7 +159,11 @@ Asennuksen jälkeen laitoin sen verkkoasetukset kuntoon, sekä liitin sen domain
 
 ![image](https://github.com/user-attachments/assets/6c2f30b3-65dd-4975-a167-abfe8534fe1d)
 
+Jonka jälkeen ajoin Group Policy Modeling
 
+![image](https://github.com/user-attachments/assets/b3dfe2c2-40c8-496f-8900-d5aba4ed5777)
+
+Jostain syystä käyttäjäkohtaiset GPO:t eivät ole käytössä, mutta konekohtaiset GPO:t ovat kyllä käytössä.
 
 ## FTP ja HTTP
 
@@ -168,6 +172,8 @@ Seuraavaksi asensin DC:n kautta FileServerille WEB Serverin ja lisäsin myös FT
 ![image](https://github.com/user-attachments/assets/e32ccc4c-eeb4-4468-9a9d-3e61568857e9)
 
 Muokkasin oletus sivun otsikon muotoon `IIS Testisivu" sekä lisäsin myös portin 8080 HTTP käyttöön
+
+![image](https://github.com/user-attachments/assets/61670fdc-b575-4c63-8373-25b9df2b6456)
 
 Tämän jälkeen yritin määrittää http uudelleenohjauksen tuohon porttiin 8080, mutta olin epähuomiossa jättänyt HTTP Redirect ominaisuuden asentamatta, joten sen asennus vielä
 
