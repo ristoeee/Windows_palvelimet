@@ -141,3 +141,17 @@ Seuraavana oli vuorossa `Group Policy`-käytäntöjen luonti, joissa noudatin oh
 | Enforce user logon restrictions | ✔️ | | | | |
 | Maximum lifetime for user ticket renewal | ✔️ | | | | | 
 | Windows Firewall enabled | | | | ✔️ | |
+
+### GP Modeling
+
+Nyt oli vuorossa tehtävä, jossa haetaan vastuasta seuraanaa kysymykseen: 
+
+```
+Jos käyttäjä Prod Uction tai Prodnon Uction kirjautuu pöytäkoneelle, joka kuuluu organisaatioyksikköön Desktops, mitä käytäntöjä hänelle sovelletaan?
+```
+
+Tehtävää varten loin virtuaaliympäristöön uuden virtuaalikoneen, josta tein työaseman
+
+![image](https://github.com/user-attachments/assets/71727e42-dc18-4799-9f27-25f6e65e1b3f)
+
+Asennuksen jälkeen laitoin sen verkkoasetukset kuntoon, sekä liitin sen domainiin.
