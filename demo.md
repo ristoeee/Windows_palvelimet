@@ -130,5 +130,6 @@ Seuraavaksi hyödynsin AD:n hallintatyökaluja määrittämällä aikaisemmin lu
 Seuraavana oli vuorossa `Group Policy`-käytäntöjen luonti, joissa noudatin ohjeistuksen mallin lisäksi itse hyväksi näkemiäni käytöntöjä seuraavan taulukon mukaisesti:
 
 | Group Policy | AccountsGP | ProductionGP | ResourcesGP | DesktopsGP | LogonPolicyGP|
-| :--- | :--- | :--- | :--- | :--- | :--- | 
-| IE selaimen ilmoitukset pois päältä | | | | :v: | |
+| :--- | :---: | :---: | :---: | :---: | :---: | 
+| IE selaimen ilmoitukset pois päältä | | | | ✔️ | |
+|Salasanavaatimukset | ✔️ | | | | ✔️|
