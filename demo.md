@@ -223,4 +223,4 @@ Lopuksi vielä varmistin kaikilta virtuaalikoneilta pääsyn nettiin komennolla 
 
 Kurssin demo suoritus meni melkeinpä ilman ongelmia. Ainoa asia mitä en ole toistaiseksi saanut ratkaistua, on Group Policy Modeling tehtävän osalta käyttäjä kohtaiset GPO:t, jotka ei jostain syystä ole käytössä, mutta kone kohtaiset kyllä ovat.
 
-Kaikenkaikkiaan tämä kurssin demo suoritus oli mukavaa muistiin palauttelua aiheen tiimoilta, jonka myös koin hyödylliseksi.
+Kaikenkaikkiaan tämä kurssin demo suoritus oli mukavaa muistiin palauttelua aiheen tiimoilta, jonka myös koin hyödylliseksi omalla kohdalla asioiden toistona, jotta ne jäävät paremmin muistiin.
