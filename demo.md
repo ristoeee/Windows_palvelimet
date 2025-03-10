@@ -214,3 +214,13 @@ Tämän jälkeen kirjauduin sisään Admin-tunnuksilla ja lisäsin `testi.txt`-t
 ![image](https://github.com/user-attachments/assets/5224c45e-f3a2-48b4-9b29-fb44b57e1fd3)
 
 Näin sain todettua FTP-palvelimen toimivan.
+
+Lopuksi vielä varmistin kaikilta virtuaalikoneilta pääsyn nettiin komennolla `nslookup haaga-helia.fi`
+
+![image](https://github.com/user-attachments/assets/f28d06df-21eb-46bc-a1ae-98351c22df02)
+
+## Loppusanat
+
+Kurssin demo suoritus meni melkeinpä ilman ongelmia. Ainoa asia mitä en ole toistaiseksi saanut ratkaistua, on Group Policy Modeling tehtävän osalta käyttäjä kohtaiset GPO:t, jotka ei jostain syystä ole käytössä, mutta kone kohtaiset kyllä ovat.
+
+Kaikenkaikkiaan tämä kurssin demo suoritus oli mukavaa muistiin palauttelua aiheen tiimoilta, jonka myös koin hyödylliseksi.
