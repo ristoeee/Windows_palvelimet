@@ -167,6 +167,16 @@ Jonka jälkeen ajoin Group Policy Modeling
 
 Jostain syystä käyttäjäkohtaiset GPO:t eivät ole käytössä, mutta konekohtaiset GPO:t ovat kyllä käytössä.
 
+## DNS
+
+Ohjeistuiksen mukaisesti luotu DNS-tietueet:
+
+![image](https://github.com/user-attachments/assets/54e26998-edaa-41a9-98a0-bf8d80f7abb6)
+
+![image](https://github.com/user-attachments/assets/46db3532-ef70-44ae-82f2-664d286dc1f1)
+
+![image](https://github.com/user-attachments/assets/855819dc-7d74-4c90-a7b8-95bf17eb9ea4)
+
 ## FTP ja HTTP
 
 ### http
