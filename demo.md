@@ -14,7 +14,7 @@ Koska olen jo jonkin verran käyttänyt Windows-palvelimia aikaisemmissa opinnoi
 * IIS ja FTP
 * Työasema, vähintään 1.
 
-Demoa jatketaan kurssin ensimmäisellä luennolla tehdyssä virtuaaliympäristössä (repon 0-2.md raportit). Myöskään tämä `demo.md` raportti ei ole pakollinen demo-toteutuksessa, mutta ajattelin kuitenkin rustata tämän, jotta itselle jää myös jotain kongreettista kurssista. Ensimmäisellä kurssin luennolla tein siis jo harjoitukset 0, 1 ja 2, joten tästä jatketaan ja seuraavaksi siis itse demoon.
+Demoa jatketaan kurssin ensimmäisellä luennolla tehdyssä virtuaaliympäristössä (repon 0-2.md raportit). Myöskään tämä `demo.md` raportti ei ole pakollinen demo-toteutuksessa, mutta ajattelin kuitenkin rustata tämän, jotta itselle jää myös jotain muistiinpanoja kurssista. Ensimmäisellä kurssin luennolla tein siis jo harjoitukset 0, 1 ja 2, joten tästä jatketaan ja seuraavaksi siis itse demoon.
 
 ## Domain Controller
 
