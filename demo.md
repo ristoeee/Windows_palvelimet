@@ -189,4 +189,18 @@ Jonka jälkeen toteutin uudelleen ohjauksen porttiin 8080 ja muutin vielä sivun
 
 ### ftp
 
-Nyt vuorossa oli FTP sivun lisääminen IIS Managerin kautta, ja nimesin tämän sivuston `TestiFTP` sivustoksi perus asetuksilla.
+Nyt vuorossa oli FTP sivun lisääminen IIS Managerin kautta, ja nimesin tämän sivuston `TestiFTP` sivustoksi perus asetuksilla. Käytin IIS:ää FTP-palvelun asentamiseen ja tein `TestiFTP`-sivun, jonne lisäsin Adminnille oikeudet.
+
+![image](https://github.com/user-attachments/assets/e5f94633-672c-4b6a-a870-dce30bda72af)
+
+Jonka jälkeen file explorerin osoitekenttään kirjoitin `ftp:\\localhost`. Tämän jälkeen kokeilin kirjautua sisään Anonynous-tilassa ja tehdä muutoksia kansiossa testin vuoksi. Ja kuten oletinkin, sain virheilmoituksen oikeuksien puuttumisesta.
+
+![image](https://github.com/user-attachments/assets/f3a7d07e-3d0a-43f1-a252-ecbcce62c14b)
+
+Tämän jälkeen kirjauduin sisään Admin-tunnuksilla ja lisäsin `testi.txt`-tiedoston kansioon.
+
+![image](https://github.com/user-attachments/assets/2a3cd387-7632-484f-b226-1db5b3bb99a7)
+
+![image](https://github.com/user-attachments/assets/5224c45e-f3a2-48b4-9b29-fb44b57e1fd3)
+
+Näin sain todettua FTP-palvelimen toimivan.
